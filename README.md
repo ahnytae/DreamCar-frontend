@@ -9,26 +9,25 @@
 
 ### 목표
 
-- 다양한 기능(스크롤 이벤트, color 바뀜, transition효과 등) 구현해보기
+- git flow 통한 버전관리 (git merge)
 - 백엔드 API를 통해 원하는 데이터 가져오기
 - SASS 활용해서 작업 해보기
 - 리액트의 lifecycle 이해하여 이벤트 적용하기
+- 백앤드 API활용한 데이터 받아 활용 
 
 ---
 
 ### 사용된 기술
 
 Frontend : **ReactJS, SASS**
-Backend : **Python, Django, MySQL, CORS headers**  
-Deployment : -
 
 ---
 
 ### 기능
 
-- 메인페이지 슬라이더 기능 구현
-- 스크롤 이벤트 기능 구현
-- 이벤트 발생시 차량 color 바뀜 기능 구현
+- 메인페이지 담당 (Nav, Footer)
+- 내 차 만들기 메인의 외관 탭 → 외관, 휠, 브레이크 캘리퍼 데이터 받아와 표시.
+- 내 차 만들기 메인의 액세서리 구현 (카운터 수량, 탭 전환, 더보기).
 
 ---
 
