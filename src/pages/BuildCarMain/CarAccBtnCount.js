@@ -35,12 +35,7 @@ class CarAccBtnCount extends Component {
             <img src={this.props.imgSrc} alt="img" />
           </div>
           <div className="cardBoxContent">
-            <span className="informaitonBtn">
-              {/* <img
-                src={require("../../images/CarAccInformationBtn.PNG")}
-                alt=""
-              /> */}
-            </span>
+            <span className="informaitonBtn"></span>
             <h3 className="cardBoxTitle">{this.props.name}</h3>
           </div>
           <div className="countBtn">
