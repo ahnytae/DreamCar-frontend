@@ -53,7 +53,7 @@ const CarAcc = () => {
           {tabBtn === 2 && <CarAccSafety />}
           {tabBtn === 3 && <CarAccFunction />}
           {tabBtn === 4 && <CarAccSoultion />}
-          {tabBtn === 5 && <CarAccWheel />
+          {tabBtn === 5 && <CarAccWheel />}
         </ul>
       </div>
       <div className="priceCheck">
