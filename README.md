@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 프로젝트 소개 : 마세라티 공식 홈페이지 클론 
 
-## Available Scripts
+- 1개월차 첫 프로젝트 wecode 7기 수강생들의 클론 프로젝트입니다.
+- 개발기간 : 2주 (2020.04.20-2020.05.01)
+- 인원 : 프론트엔드 3명 & 백엔드 2명  
+- Backend Repositoty 주소: https://github.com/wecode-bootcamp-korea/DreamCar-backend
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+### 목표
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- git flow 통한 버전관리 (git merge)
+- 백엔드 API를 통해 원하는 데이터 가져오기
+- SASS 활용해서 작업 해보기
+- 리액트의 lifecycle 이해하여 이벤트 적용하기
+- 백앤드 API활용한 데이터 받아 활용 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+### 사용된 기술
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Frontend : **ReactJS, SASS**
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 기능
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- 메인페이지 담당 (Nav, Footer)
+- 내 차 만들기 메인의 외관 탭 → 외관, 휠, 브레이크 캘리퍼 데이터 받아와 표시.
+- 내 차 만들기 메인의 액세서리 구현 (카운터 수량, 탭 전환, 더보기).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+### 현재 해당프로젝트는 리팩토링중에 있습니다. (7/17 ~)
+## 리팩토링 목표
+- 함수형으로 전환
+- 메인페이지 반응형
+- 코드 & 구조 최적화
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 데모영상
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+(https://youtu.be/yaO4jlIrlY8)

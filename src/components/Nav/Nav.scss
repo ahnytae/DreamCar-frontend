@@ -17,7 +17,7 @@
 .Navfont {
   //Nav 모든 탭 내에 텍스트
   font-size: 1pc;
-  color: #333;
+  color: #0c2340;
   padding: 3px 3px 6px 0;
   margin-top: 10px;
 }
@@ -56,20 +56,27 @@
   margin-left: 6px;
   transform: rotate(-90deg);
 }
+
 // Desgin Area
 
 .NavCont {
   display: flex;
   align-items: center;
+
   position: fixed;
   z-index: 999;
   background-color: #ffffff;
   font-family: $g-font-style;
+  min-height: 75px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+
   width: 100%;
 
   .logo {
     padding: 0 60px;
     flex-grow: 1;
+
     img {
       width: 105px;
     }
@@ -78,7 +85,7 @@
   .NavLeft {
     display: flex;
     flex-grow: 60;
-    max-width: 855px;
+    width: auto;
     height: 75px;
 
     li {
@@ -144,6 +151,7 @@
             .moreBox {
               display: inline-block;
               font-size: 14px;
+              line-height: 1.5;
               .moreView {
                 background-color: #fff;
                 border: 1px solid #666;
@@ -198,8 +206,10 @@
 
   .NavRight {
     display: flex;
+
     justify-content: flex-end;
     flex-grow: 1;
+
     height: 75px;
 
     li {

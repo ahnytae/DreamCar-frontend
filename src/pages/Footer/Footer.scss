@@ -8,7 +8,7 @@
   flex-direction: column;
 
   .FooterWrapper {
-    padding: 30px 60px;
+    padding: 30px 0;
     height: 170px;
     color: #ffff;
     display: flex;
@@ -30,6 +30,7 @@
         .heading {
           margin-bottom: 15px;
           font-weight: bold;
+          font-family: Univers LT W02_700 Condensed;
         }
 
         .bold {
@@ -71,8 +72,9 @@
         font-size: 14px;
         padding: 5px 20px;
         border-radius: 5px;
-        width: 250px;
+        width: auto;
         text-align: center;
+        width: auto;
 
         a {
           letter-spacing: 0.04em;
@@ -113,7 +115,7 @@
       width: 35px;
       height: 35px;
       margin: 0 5px;
-      background-color: #ffff;
+
       border-radius: 5px;
     }
 
