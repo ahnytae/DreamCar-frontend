@@ -1,13 +1,9 @@
 import React from "react";
-
 import { withRouter, Link } from "react-router-dom";
-
 import "./Nav.scss";
 
 //img import
-
 import NavLogo from "../../images/NavLogo.png";
-
 import NavMore from "../../images/NavMore.png";
 
 const Nav = ({ history }) => {
