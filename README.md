@@ -31,12 +31,18 @@ Frontend : **ReactJS, SASS**
 
 ---
 
-### 현재 해당프로젝트는 리팩토링중에 있습니다. (7/17 ~)
-## 리팩토링 목표
-- 함수형으로 전환
-- 메인페이지 반응형
-- 코드 & 구조 최적화
-
 ### 데모영상
 
 (https://youtu.be/yaO4jlIrlY8)
+
+---
+
+## 1차 프로젝트 DreamCar-frontend 리팩토리 중.. (2020.08.13 ~ )
+
+# 목표: 
+  - class Component -> Functional Component 및 Hooks 사용.
+  - Redux 이용해 장바구니 기능 구현.
+  - TypeScript 이용.
+  - 실시간 드래그 이벤트 등 응용된 이벤트 구현.
+
+  - repositories: https://github.com/ahnytae/Typescript-redux-Maserati-clone 
